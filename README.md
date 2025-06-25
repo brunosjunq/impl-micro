@@ -53,9 +53,9 @@ uvicorn app:app --reload  # http://127.0.0.1:8000
 
 ## Teste rápido
 
-# a. Via cURL
+## a. Via cURL
 
-# Criar contato
+## Criar contato
 
 curl -X POST http://127.0.0.1:8000/contacts \
     -H "Content-Type: application/json" \
@@ -63,15 +63,15 @@ curl -X POST http://127.0.0.1:8000/contacts \
          "telefones":[{"numero":"71-91234-5678","tipo":"MOVEL"}],
          "categoria":"PESSOAL"}'
 
-# Listar
+## Listar
 
 curl http://127.0.0.1:8000/contacts
 
-# b. Via script
+## b. Via script
 
 python tests/demo_requests.py
 
-# Saída típica:
+## Saída típica:
 
 Criado: {'id': '...', 'nome': 'Alice', ...}
 Consulta: {'id': '...', 'nome': 'Alice', ...}
