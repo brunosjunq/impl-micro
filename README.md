@@ -35,18 +35,18 @@ contact_service/
 
 ## Instalação & execução
 
-# 1. Clone o repositório
+## 1. Clone o repositório
 git clone https://github.com/<seu-usuario>/contact_service.git
 cd contact_service
 
-# 2. Crie o ambiente virtual (recomendado)
+## 2. Crie o ambiente virtual (recomendado)
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# 3. Instale as dependências
+## 3. Instale as dependências
 pip install fastapi uvicorn[standard] pydantic requests
 
-# 4. Rodando o servidor
+## 4. Rodando o servidor
 uvicorn app:app --reload  # http://127.0.0.1:8000
 
 ---
