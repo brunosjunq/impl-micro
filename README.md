@@ -65,6 +65,8 @@ curl -X POST http://127.0.0.1:8000/contacts \
 
 ## b. Via script
 
+## Executar script demo
+
 python tests/demo_requests.py
 
 ## Saída típica:
