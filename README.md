@@ -63,10 +63,6 @@ curl -X POST http://127.0.0.1:8000/contacts \
          "telefones":[{"numero":"71-91234-5678","tipo":"MOVEL"}],
          "categoria":"PESSOAL"}'
 
-## Listar
-
-curl http://127.0.0.1:8000/contacts
-
 ## b. Via script
 
 python tests/demo_requests.py
@@ -83,3 +79,7 @@ Lista: [
     "categoria": "PESSOAL"
   }
 ]
+
+## Listar
+
+curl http://127.0.0.1:8000/contacts
