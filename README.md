@@ -47,7 +47,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install fastapi uvicorn[standard] pydantic requests
 
 ## 4. Rodando o servidor
-uvicorn app:app --reload  # http://127.0.0.1:8000
+python -m uvicorn app:app --reload --host 127.0.0.1 --port 8000
 
 ---
 
